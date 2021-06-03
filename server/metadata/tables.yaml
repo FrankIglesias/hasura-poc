@@ -13,10 +13,11 @@
   - role: api
     permission:
       columns:
-      - title
       - id
+      - title
       - body
       - updated_at
+      - created_at
       filter: {}
       allow_aggregations: true
   update_permissions:
