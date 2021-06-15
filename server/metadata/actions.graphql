@@ -1,0 +1,7 @@
+type Query {
+  currentDate: SampleOutput
+}
+
+type SampleOutput {
+  date: String!
+}

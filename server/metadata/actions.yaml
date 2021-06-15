@@ -1,0 +1,14 @@
+actions:
+- name: currentDate
+  definition:
+    kind: ""
+    handler: 'http://host.docker.internal:3030/'
+    forward_client_headers: true
+    headers:
+    - value: application/json
+      name: Content-Type
+custom_types:
+  enums: []
+  objects:
+  - name: SampleOutput
+  scalars: []
