@@ -8,7 +8,7 @@ app.post('/', (req, res) => {
 })
 
 app.get('/', (req, res) => {
-  res.send(new Date().toString())
+  res.send({date: new Date().toString()})
 })
 
 app.listen(port, () => {

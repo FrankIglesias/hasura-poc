@@ -1,7 +1,7 @@
 // Initialize the dataProvider before rendering react-admin resources.
 import React, { useState, useEffect } from 'react';
 import buildHasuraProvider from 'ra-data-hasura';
-import { Admin, ListGuesser, Resource, ShowGuesser } from 'react-admin';
+import { Admin, EditGuesser, ListGuesser, Resource, ShowGuesser } from 'react-admin';
 
 const App = () => {
   const [dataProvider, setDataProvider] = useState(null);
@@ -20,7 +20,7 @@ const App = () => {
 
   return (
     <Admin dataProvider={dataProvider}>
-      <Resource name="posts" list={ListGuesser} show={ShowGuesser} />
+      <Resource name="posts" list={ListGuesser} show={ShowGuesser} edit={EditGuesser} />
     </Admin>
   );
 };
