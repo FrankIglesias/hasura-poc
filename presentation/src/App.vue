@@ -3,9 +3,9 @@
     <div class="reveal">
       <div class="slides">
         <section>
-          <h2> Hasura GraphQL</h2>
-           <h2>by</h2>
-           <h2>Francisco Iglesias 😁</h2>
+          <h2>Hasura GraphQL</h2>
+          <h2>by</h2>
+          <h2>Francisco Iglesias 😁</h2>
         </section>
         <section>
           <section>
@@ -70,7 +70,8 @@
           </section>
           <section>
             <p>quey_collections.yaml</p>
-            Define set of queries as a collection (e.g. to use in allow-list.yaml)
+            Define set of queries as a collection (e.g. to use in
+            allow-list.yaml)
             <pre><code>
               - name: sample-collection
                 definition:
@@ -139,7 +140,7 @@
               - role: api
                 permission:
                   filter: {}
-</code></pre>
+            </code></pre>
           </section>
           <section>
             <p>version.yaml</p>
@@ -165,7 +166,9 @@
         <section>
           <h3>Before start...</h3>
           <ul>
-            <li>Hasura has a cloud to host your instance and also supports docker</li>
+            <li>
+              Hasura has a cloud to host your instance and also supports docker
+            </li>
             <li>Frontend is using React-admin that has a Hasura connector</li>
             <li>Database power by Supabase</li>
           </ul>
